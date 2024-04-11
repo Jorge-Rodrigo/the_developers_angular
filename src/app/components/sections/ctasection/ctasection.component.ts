@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-ctasection',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  templateUrl: './ctasection.component.html',
+  styleUrl: './ctasection.component.css'
 })
-export class HeaderComponent {
+export class CtasectionComponent {
 
 }
