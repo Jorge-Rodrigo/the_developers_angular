@@ -1,0 +1,11 @@
+<section>
+    <div>
+        <ul>
+            <!-- Assim que coloca o for pra funcionar -->
+            <app-developercard 
+            *ngFor="let developer of developerList"
+            [developer]="developer"
+            ></app-developercard>
+        </ul>
+    </div>
+</section>
